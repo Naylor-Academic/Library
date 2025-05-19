@@ -1,3 +1,16 @@
-section nav ul li a {
-      text-decoration: none;
+body {
+      background-image: url("src/home/background/galaxy-amazing-spinning-on-the-right-usagif.gif");
+      background-size: cover;
 }
+
+section h2 {
+      color: white;
+}
+
+section .menu a {
+  display: flex;
+  justify-content: space-between; 
+
+} 
+
+
