@@ -1,16 +1,24 @@
 body {
-      background-image: url("src/home/background/galaxy-amazing-spinning-on-the-right-usagif.gif");
+      background-image: url("src/home/background/Q6zh.gif");
       background-size: cover;
+      background-position: unset;
 }
 
 section h2 {
       color: white;
 }
 
-section .menu a {
-  display: flex;
-  justify-content: space-between; 
+section .menu h1 {
+       width: 200px;             /* Largura do elemento a ser centralizado */
+  height: 150px;            /* Altura do elemento */
 
-} 
+}
 
-
+section .menu {
+      display: flex;
+      justify-content: center;
+      /* Centraliza horizontalmente */
+      align-items: center;
+      /* Centraliza verticalmente */
+      height: 100vh;
+}
